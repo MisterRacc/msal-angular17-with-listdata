@@ -2,8 +2,8 @@ export const environment = {
     production: false,
     msalConfig: {
         auth: {
-            clientId: 'c1eed0b4-a59d-46bd-b3ee-416e35abzfa3',
-            authority: 'https://login.microsoftonline.com/3e11228b-56f5-450d-9cf1-6283bdb7f12c'
+            clientId: '5b600236-888e-47f6-8f69-656adc6eb1c0',
+            authority: 'https://login.microsoftonline.com/15c47f9b-e2ad-4b8f-bab6-c6b2eeda8179'
         }
     },
     apiConfig: {

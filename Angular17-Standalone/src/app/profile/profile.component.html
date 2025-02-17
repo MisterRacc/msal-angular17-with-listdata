@@ -1,5 +1,10 @@
 <div>
+    <p><strong>Full Name: </strong> {{profile?.displayName}}</p>
     <p><strong>First Name: </strong> {{profile?.givenName}}</p>
     <p><strong>Last Name: </strong> {{profile?.surname}}</p>
-    <p><strong>Email: </strong> {{profile?.userPrincipalName}}</p>
+    <p><strong>Email: </strong> {{userEmail}}</p>
+    <p><strong>Token: </strong> {{userToken}}</p>
+
+    <img [src]="[userData]" alt="User Profile Picture">
+    
 </div>
